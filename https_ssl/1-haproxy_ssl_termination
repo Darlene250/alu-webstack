@@ -38,7 +38,7 @@ frontend http_in
 # Main HTTPS frontend
 frontend https_in
     # *** CORRECTED PATH HERE ***
-    bind *:443 ssl crt /etc/haproxy/www.noxowen.tech.pem
+    bind *:443 ssl crt /etc/haproxy/www.naxowen.tech.pem
     mode http
     option forwardfor
     option httpclose
